@@ -42,9 +42,6 @@ struct TextChessView: View {
     }
 }
 
-struct Text_Previews: PreviewProvider {
-    static var previews: some View {
-        TextChessView()
-            .style()
-    }
+#Preview {
+    TextChessView().style()
 } 

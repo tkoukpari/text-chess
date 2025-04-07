@@ -88,9 +88,6 @@ struct New_game: View {
     }
 }
 
-struct New_game_Previews: PreviewProvider {
-    static var previews: some View {
-        New_game()
-            .style()
-    }
-} 
+#Preview {
+    New_game().style()
+}
