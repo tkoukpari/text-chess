@@ -4,7 +4,7 @@ struct New_game: View {
     @State private var color = State_.color
     @State private var stockfish_level = State_.stockfish_level
     @State private var number_of_moves_before_you_can_view_the_board = State_.number_of_moves_before_you_can_view_the_board
-    
+
     var body: some View {
         VStack(spacing: 20) {
             VStack(alignment: .leading, spacing: 10) {

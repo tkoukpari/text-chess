@@ -21,6 +21,10 @@ struct TextChessView: View {
                         .cornerRadius(8)
                     
                     Button(action: {
+                        let chess = ChessWrapper()
+                        let result = chess.move(userInput)
+                        print("testing", result)
+                        
                         san = san + " " + userInput
                         State_.san = san
                         userInput = ""
